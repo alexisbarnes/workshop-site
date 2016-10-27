@@ -1,0 +1,32 @@
+/*----GLOBAL STYLES---*/
+h1 {
+  text-align: center;
+}
+
+
+/*---HEADER IMG---*/
+.header {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+
+.cover-img {
+  background-image: url("../imgs/thanksgiving-cover.jpg");
+  background-size: cover;
+  height: 1000px;
+  width: 100%;
+}
+
+/*---IMG BOARD--*/
+.card img {
+  height: 400px;
+  width: 400px;
+}
+
+/*--FOOTER--*/
+footer {
+  float: left;
+  padding: 15px 0;
+  min-width: 100%;
+  background-color: #000;
+}
