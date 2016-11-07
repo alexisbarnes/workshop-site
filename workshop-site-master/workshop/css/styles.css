@@ -1,0 +1,134 @@
+/*----GLOBAL STYLES---*/
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: #D9C7A8;
+}
+
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  font-size: 20px;
+}
+
+p {
+  font-size: 20px;
+}
+
+a {
+  color: #851A12;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+
+/*---HEADER IMG---*/
+.header {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+
+/*.cover-img {
+  background-image: url("../imgs/thanksgiving-cover.jpg");
+  background-size: cover;
+  min-height: 800px;
+  width: 100%;
+}*/
+
+.cover-img img {
+  width: 100%;
+  height: auto;
+}
+
+/*---NAVBAR--*/
+.navbar-default {
+  background-image: none;
+  background-color: #995A33;
+  border-color: #995A33;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #000;
+}
+
+.navbar-default .navbar-nav>.active>a {
+  background-image: none;
+  color: #000;
+  background-color: #D97F22;
+}
+
+.navbar-default .navbar-nav>.active>a:hover {
+  color: #000;
+  background-color: #851A12;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  color: #000;
+  background-color: #851A12;
+}
+
+.logo {
+  max-height: 20px;
+  width:auto;
+}
+
+
+
+/*---MAP---*/
+.map {
+  display: block;
+  margin: 0 auto;
+  padding: 20px 0 20px 0;
+}
+
+/*.map img {
+  max-width: 100%;
+  height: auto;
+}*/
+
+/*---IMG BOARD--*/
+.card img {
+  height: 400px;
+  width: 400px;
+}
+
+.all-cards {
+  padding: 20px 0 20px 0;
+}
+
+/*--FOOTER--*/
+footer {
+  float: left;
+  padding: 15px 0;
+  min-width: 100%;
+  background-color: #D97F48;
+}
+
+.footer-txt {
+  text-align: center;
+}
+
+/*----PEACAN PIE----*/
+.description {
+  text-align: center;
+  font-size: 15px;
+}
+
+.note {
+  text-align: center;
+  font-size: 14px;
+  margin: 5px 0 0 0;
+}
+
+/*.recipe {
+  text-align: center;
+}*/
